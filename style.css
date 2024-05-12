@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -31,12 +33,25 @@ body{
 .content{
     background-color: white;
     width: 100%;
+    background-image: url(img/bgbody.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .head-name{
     margin-top: 60px;
     text-align: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #cc0000;
 }
+
+.head-title{
+    text-align: center;
+}
+
 
 .icon{
     display: flex;
@@ -55,6 +70,23 @@ body{
     text-align: center;
 }
 
+.td1{
+    font-size: 25px;
+    color: white;
+}
+.td2{
+    font-size: 20px;
+    color: #ffffcc;
+}
+td{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.gearh2{
+    color: #ffffcc;
+    font-size: 30px;
+}
 @media screen and (max-width: 600px) {
     .sidebar{
         display: none;
