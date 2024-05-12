@@ -23,6 +23,7 @@ body{
 .icon{
     display: flex;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .icon-img{
