@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    background-color: black;
+    width: 17%;
+}
+.content{
+    background-color: white;
+    width: 100%;
+}
